@@ -12,7 +12,7 @@ isLeftAnalogStick=True
 for modders that dont have controller to test with, this works for simulate controller
 i bsc computer science pair programming with chatgpt to produce a python joystick keyboard opensource, to work with vjoy, enjoy
 
-to debug using a virtual controller, to got a near 100% precision use entire screen, someone can try optimize the precision using math and screen knowledge (hint you can reduce the screen to fit better the circle of radial menu)
+to debug using a virtual controller, to got 99.9% precision use your window screen monitor borders, someone can try optimize the precision using math and screen knowledge (hint you can reduce the screen to fit better the circle of radial menu)
 
 requirements: vjoy https://sourceforge.net/projects/vjoystick/files/latest/download config 18 buttons there
 to run, install python
