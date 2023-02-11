@@ -18,3 +18,7 @@ requirements: vjoy https://sourceforge.net/projects/vjoystick/files/latest/downl
 to run, install python
 pip install -r requirements.txt
 python chatgpt-keyboard-axis-reifel.py
+
+Showcase:
+https://user-images.githubusercontent.com/11529665/218254861-4a08a6fa-582d-48b3-b565-884ca27f4a88.mp4
+
