@@ -17,8 +17,11 @@ to debug using a virtual controller, to got 99.9% precision use your window scre
 
 requirements: vjoy https://sourceforge.net/projects/vjoystick/files/latest/download config 18 buttons there
 to run, install python
+
+```
 pip install -r requirements.txt
 python chatgpt-keyboard-axis-reifel.py
+```
 
 Showcase:
 
@@ -26,6 +29,7 @@ Showcase:
 
 https://user-images.githubusercontent.com/11529665/218254946-39857009-b4fe-49d2-8dbd-82ad02827fd0.mp4
 
+```
 key binds map:
 ' : A
 1 : B
@@ -45,4 +49,5 @@ z : D-Left
 6 : D-Right
 8 : blow-mic
 g : Show-Screen
+```
 
