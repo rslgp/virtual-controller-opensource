@@ -6,6 +6,8 @@ import threading
 import time
 import win32api
 
+isLeftAnalogStick = False
+
 j = pyvjoy.VJoyDevice(1)
 
 stop_threads = False
@@ -37,7 +39,6 @@ cte1 = max_value / screen_width
 cte2 = max_value / screen_height
 
 
-isLeftAnalogStick = False
 def read_mouse():
     global j
     global stop_threads
