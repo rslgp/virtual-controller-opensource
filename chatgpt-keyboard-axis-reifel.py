@@ -72,5 +72,5 @@ keyboard_thread.start()
 mouse_thread = threading.Thread(target=read_mouse)
 mouse_thread.start()
 
-print("\nOpensource Virtual Controller for Zomboid by modder Reifel is running");
+print("\nOpensource Virtual Controller for Zomboid by modder Reifel (SteamID: 76561197987727467) is running");
 print("PRESS F1 to exit");
