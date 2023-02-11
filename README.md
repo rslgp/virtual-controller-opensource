@@ -6,7 +6,7 @@ press F1 to exit
 keybinds: ' 1 to 9, z x c v b, f g h
 ```
 
-userful for debug if you dont have controller, you can test axis using mouse, and to change analog stick change in code
+userful for debug if you dont have controller, you can test axis using mouse, and to change analog stick change in code (or add "right" argument as parameter)
 ```
 isLeftAnalogStick=False
 to
@@ -27,14 +27,25 @@ to run, install python
 
 ```
 pip install -r requirements.txt
+
+left analog stick:
 python chatgpt-keyboard-axis-reifel.py
+
+right analog stick:
+python chatgpt-keyboard-axis-reifel.py right
 ```
 or
 ##### [portable executable](https://github.com/rslgp/virtual-controller-opensource/releases/download/v1.0/chatgpt-keyboard-axis-reifel.exe) + [vjoy needed](https://sourceforge.net/projects/vjoystick/files/latest/download) 
 ```
 no need python installed
 run release executable
+
+left analog stick:
 chatgpt-keyboard-axis-reifel.exe
+
+right analog stick:
+chatgpt-keyboard-axis-reifel.exe right
+
 ```
 
 Showcase:
