@@ -15,9 +15,10 @@ i bsc computer science pair programming with chatgpt to produce a python joystic
 
 to debug using a virtual controller, to got 99.9% precision use your window screen monitor borders, 
 
-###### LOOKING FOR PR: 
+##### LOOKING FOR PR: 
 someone can try optimize the precision using math and screen knowledge (hint you can reduce the screen to fit better the circle of radial menu)
 
+##### setup and install
 requirements: vjoy https://sourceforge.net/projects/vjoystick/files/latest/download config 18 buttons there
 to run, install python
 
@@ -26,6 +27,7 @@ pip install -r requirements.txt
 python chatgpt-keyboard-axis-reifel.py
 ```
 or
+##### portable run
 ```
 no need python installed
 run release executable
