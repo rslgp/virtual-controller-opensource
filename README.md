@@ -1,12 +1,12 @@
 # virtual-controller-opensource
-a virtual controller opensource coded by bsc Computer Science with pair programming with chatgpt, for debug zomboid mods, with changeable axis (L analog or R analog) for mouse
+a virtual controller (joystick with two analog stickers) opensource coded by bsc Computer Science with pair programming with chatgpt, for debug zomboid mods, with changeable axis (L analog or R analog) for mouse
 
 ```
 press F1 to exit
 keybinds: ' 1 to 9, z x c v b, f g h
 ```
 
-userful for debug if you dont have controller, you can test axis using mouse, and to change axis change in code
+userful for debug if you dont have controller, you can test axis using mouse, and to change analog stick change in code
 ```
 isLeftAnalogStick=False
 to
