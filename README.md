@@ -6,7 +6,9 @@ press F1 to exit
 keybinds: ' 1 to 9, z x c v b, f g h
 ```
 
-userful for debug if you dont have controller, you can test axis using mouse, and to change analog stick change in code (or add "right" argument as parameter)
+userful for debug if you dont have controller, you can test axis using mouse, and to change analog stick change in code 
+
+or just add "right" argument as parameter (...).py right or (...).exe right (without quotes)
 ```
 isLeftAnalogStick=False
 to
