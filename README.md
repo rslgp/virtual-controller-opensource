@@ -22,6 +22,12 @@ to run, install python
 pip install -r requirements.txt
 python chatgpt-keyboard-axis-reifel.py
 ```
+or
+```
+no need python installed
+run release executable
+chatgpt-keyboard-axis-reifel.exe
+```
 
 Showcase:
 
