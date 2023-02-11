@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python chatgpt-keyboard-axis-reifel.py
 ```
 or
-##### [portable run](https://github.com/rslgp/virtual-controller-opensource/releases/edit/v1.0)
+##### [portable run](https://github.com/rslgp/virtual-controller-opensource/releases/download/v1.0/chatgpt-keyboard-axis-reifel.exe)
 ```
 no need python installed
 run release executable
