@@ -5,8 +5,10 @@ import keyboard
 import threading
 import time
 import win32api
+import sys
 
-isLeftAnalogStick = False
+isRightAnalogStick = (sys.argv[1] == "right") if len(sys.argv)>1 else False
+isLeftAnalogStick = False or isRightAnalogStick
 
 j = pyvjoy.VJoyDevice(1)
 
