@@ -2,7 +2,8 @@
 a virtual controller opensource coded by bsc Computer Science with pair programming with chatgpt, for debug zomboid mods, with changeable axis (L analog or R analog) for mouse
 
 userful for debug if you dont have controller, you can test axis using mouse, and to change axis change in code
-```isLeftAnalogStick=False
+```
+isLeftAnalogStick=False
 to
 isLeftAnalogStick=True
 ``` 
