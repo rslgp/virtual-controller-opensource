@@ -1,0 +1,4 @@
+pyvjoy
+pyautogui
+keyboard
+pypiwin32
