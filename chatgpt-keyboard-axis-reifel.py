@@ -36,6 +36,7 @@ def read_keyboard():
 screen_width = win32api.GetSystemMetrics(0)
 screen_height = win32api.GetSystemMetrics(1)
 max_value = 32767
+middle = int(max_value/2)
 
 cte1 = max_value / screen_width
 cte2 = max_value / screen_height
@@ -54,10 +55,17 @@ def read_mouse():
         if(isLeftAnalogStick):
             j.data.wAxisX = x_axis
             j.data.wAxisY = y_axis
+            
+            j.data.wAxisXRot = middle
+            j.data.wAxisYRot = middle
         else:
             # Set the value of the Right Analog Stick on the virtual joystick
             j.data.wAxisXRot = x_axis
             j.data.wAxisYRot = y_axis
+            
+            
+            j.data.wAxisX = middle
+            j.data.wAxisY = middle
         #j.update()
 
 # Function to stop threads
